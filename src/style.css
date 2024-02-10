@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+body {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 999;
+}
+
+.list-nav {
+  height: fit-content;
+  font-family: monospace;
+  font-size: large;
+}
+
+.portfolio-logo {
+  width: 35px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.img-profile {
+  width: auto;
+}
+
+.img-profile img {
+  width: 350px;
+}
+
+.introduce {
+  height: 500px;
+  display: flex;
+}
+.contain-introduce {
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.word {
+  margin: auto;
+}
+
+.image-skill {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 50px;
+}
