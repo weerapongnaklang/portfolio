@@ -6,7 +6,7 @@ const Navbar = () => {
           <h2 className="font-mono">RUBY.</h2>
         </div>
 
-        <ul className="list-nav  lg:flex gap-5 block text-center  md:text-center mr-20">
+        <ul className="list-nav  lg:flex gap-5 block text-center  md:text-center m-auto lg:mr-20">
           <li className=" hover:underline decoration-4">
             <a href="#introduce">HOME</a>
           </li>

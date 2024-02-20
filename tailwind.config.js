@@ -13,7 +13,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        libre: ['"Press Start 2P"', ...defaultTheme.fontFamily.sans],
+        libre: ["Press Start 2P", ...defaultTheme.fontFamily.sans],
       },
     },
   },

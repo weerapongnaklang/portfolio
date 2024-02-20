@@ -17,13 +17,16 @@ const Contact = () => {
             <i className="fa-brands fa-linkedin mx-2 mr-10"></i>
           </a>
           <a href="https://www.instagram.com/rulabie_ruby/">
-            <i className="fa-brands fa-instagram mx-2"></i>
+            <i className="fa-brands fa-instagram mx-2 mr-10"></i>
+          </a>
+          <a href="mailto:weerapongnaklangs@gmail.com" mailto>
+            <i className="fa-regular fa-envelope mx-2"></i>
           </a>
         </div>
         <div className="flex">
           <p className="flex-1 mb-10 text-gray-600 font-bold ">RUBY.</p>
           <p className="text-gray-400">
-            Thank you for watcing{" "}
+            Thank you for watcing
             <span className="font-bold text-gray-500"> my portfolio.</span>
           </p>
         </div>
