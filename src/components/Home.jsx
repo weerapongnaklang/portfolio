@@ -3,14 +3,14 @@ import Introduce from "./Introduce";
 import Navbar from "./Navbar";
 import Project from "./Project";
 import Skill from "./Skill";
-import Contact from "./contact";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
-    <div className="">
+    <div>
       <Navbar />
       <Introduce />
-      <Aboutme/>
+      <Aboutme />
       <Skill />
       <Project />
       <Contact />
