@@ -1,4 +1,4 @@
-// import html from "../../assets/aboutme_html";
+import html from "./aboutme_html";
 
 const Aboutme = () => {
   return (
@@ -60,7 +60,7 @@ const Aboutme = () => {
       </div>
       <div className="pt-10 ">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 auto-rows-fr">
-          <AboutMeCard heading="html&css" iconUrl="src/assets/aboutme_html.jpg">
+          <AboutMeCard heading="html&css" iconUrl={html}>
             Responsive websites with fast loading
           </AboutMeCard>
           <AboutMeCard
