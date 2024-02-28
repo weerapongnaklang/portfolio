@@ -1,4 +1,5 @@
-import html from "./aboutme_html";
+import aboutme_html from "src/assets/aboutme_html";
+import profile from "src/assets/Profile";
 
 const Aboutme = () => {
   return (
@@ -15,7 +16,7 @@ const Aboutme = () => {
         <div className="img-profile mt-5">
           <img
             className="rounded-full drop-shadow-xl "
-            src="src/assets/Profile.png"
+            src={profile}
             alt="weerapongnaklang"
           />
         </div>
@@ -60,7 +61,7 @@ const Aboutme = () => {
       </div>
       <div className="pt-10 ">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 auto-rows-fr">
-          <AboutMeCard heading="html&css" iconUrl={html}>
+          <AboutMeCard heading="html&css" iconUrl={aboutme_html}>
             Responsive websites with fast loading
           </AboutMeCard>
           <AboutMeCard
