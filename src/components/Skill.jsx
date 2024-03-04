@@ -1,3 +1,13 @@
+import skill_html from "./../assets/html.svg";
+import skill_css from "./../assets/css.svg";
+import skill_javascript from "./../assets/javascript.svg";
+import skill_mongoDB from "./../assets/mongoDB.svg";
+import skill_github from "./../assets/github.svg";
+import skill_nodejs from "./../assets/nodejs.svg";
+import skill_react from "./../assets/react.svg";
+import skill_sql from "./../assets/sql.png";
+
+
 const Skill = () => {
   return (
     <div className="pb-20 pt-5">
@@ -7,14 +17,14 @@ const Skill = () => {
         </h3>
       </div>
       <div className="grid gap-5 grid-cols-3 w-3/5 md:w-2/5 xl:w-1/5 mx-auto skill-iamge ">
-        <img src="src/assets/html.svg" alt="html" />
-        <img src="src/assets/css.svg" alt="css" className="hover:2rem" />
-        <img src="src/assets/javascript.svg" alt="javascript" />
-        <img src="src/assets/nodejs.svg" alt="node.js" />
-        <img src="src/assets/react-logo.svg" alt="react" />
-        <img src="src/assets/github.svg" alt="github" />
-        <img src="src/assets/sql.png" alt="sql" />
-        <img src="src/assets/mongoDB.svg" alt="mongodb" />
+        <img src={skill_html} alt="html" />
+        <img src={skill_css} alt="css" className="hover:2rem" />
+        <img src={skill_javascript} alt="javascript" />
+        <img src={skill_nodejs} alt="node.js" />
+        <img src={skill_react} alt="react" />
+        <img src={skill_github} alt="github" />
+        <img src={skill_sql} alt="sql" />
+        <img src={skill_mongoDB} alt="mongodb" />
       </div>
     </div>
   );

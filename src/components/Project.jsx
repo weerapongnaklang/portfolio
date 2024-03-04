@@ -1,3 +1,8 @@
+import project_colmar from "./../assets/project_colmar.png";
+import project_image from "./../assets/project-image.png";
+import project_react from "./../assets/project_react.png";
+import project_rubyshop from "./../assets/project_rubyshop.png";
+
 const ProjectCard = () => {
   return (
     <>
@@ -5,7 +10,7 @@ const ProjectCard = () => {
       <div className="flex">
         <div className="bg-gray-100 w-60 p-10 ">
           <div className="w-40 ">
-            <img src="src/assets/d.png" className="w-100 " alt="" />
+            <img src={project_image} className="w-100 " alt="" />
           </div>
           <div className="text-xs">
             <ul className="flex gap-1 content-end  mt-5">
@@ -37,7 +42,7 @@ const ProjectCard = () => {
       <div className="flex">
         <div className="bg-gray-100 w-60 p-10 ">
           <div className="w-40 ">
-            <img src="src/assets/project_react.png" className="w-100 " alt="" />
+            <img src={project_react} className="w-100 " alt="" />
           </div>
           <div className="text-xs">
             <ul className="flex gap-1 content-end  mt-5">
@@ -67,7 +72,7 @@ const ProjectCard = () => {
         <div className="bg-gray-100 w-60 p-10 ">
           <div className="w-40 ">
             <img
-              src="src/assets/project_rubyshop.png"
+              src={project_rubyshop}
               className="w-100 "
               alt=""
             />
@@ -98,7 +103,7 @@ const ProjectCard = () => {
         <div className="bg-gray-100 w-60 p-10 ">
           <div className="w-40 ">
             <img
-              src="src/assets/project_colmar.png"
+              src={project_colmar}
               className="w-100 "
               alt=""
             />

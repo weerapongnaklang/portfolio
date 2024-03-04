@@ -1,5 +1,8 @@
-import aboutme_html from "src/assets/aboutme_html";
-import profile from "src/assets/Profile";
+import aboutme_html from "../assets/aboutme_html.jpg";
+import aboutme_javascript from "../assets/aboutme_javascript.jpg";
+import aboutme_react from "../assets/aboutme_react.jpg";
+import aboutme_database from "../assets/aboutme_database.jpg";
+import profile from "../assets/Profile.png";
 
 const Aboutme = () => {
   return (
@@ -64,22 +67,13 @@ const Aboutme = () => {
           <AboutMeCard heading="html&css" iconUrl={aboutme_html}>
             Responsive websites with fast loading
           </AboutMeCard>
-          <AboutMeCard
-            heading="javascript"
-            iconUrl="src/assets/aboutme_javascript.jpg"
-          >
+          <AboutMeCard heading="javascript" iconUrl={aboutme_javascript}>
             Building a website that can interact with users
           </AboutMeCard>
-          <AboutMeCard
-            heading="react.js"
-            iconUrl="src/assets/aboutme_react.jpg"
-          >
+          <AboutMeCard heading="react.js" iconUrl={aboutme_react}>
             Building system with functional components
           </AboutMeCard>
-          <AboutMeCard
-            heading="database"
-            iconUrl="src/assets/aboutme_database.jpg"
-          >
+          <AboutMeCard heading="database" iconUrl={aboutme_database}>
             Appropriate data management
           </AboutMeCard>
         </div>

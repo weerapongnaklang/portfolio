@@ -19,19 +19,19 @@ const Introduce = () => {
             />
             <br />
             <code className="word">
-              {" "}
-              Hello ! I'm{" "}
+              
+              Hello ! I'm
               <span className="underline  decoration-4 underline-offset-4 ">
                 Ruby
-              </span>{" "}
-              not Ruby Language{" "}
+              </span>
+              not Ruby Language
             </code>
           </h1>
           <p>
             <code>
               <span className="font-semibold">
                 A Junior Software Developer,
-              </span>{" "}
+              </span>
               based in bangkok.
             </code>
           </p>
