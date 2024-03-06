@@ -24,7 +24,7 @@ const Navbar = () => {
           </li>
           <a
             className=" hover:underline decoration-4 hover:bg-slate-300 bg-slate-200 p-1 rounded-md"
-            href="https://drive.google.com/file/d/1WzIXlN6XvDvTfJ6ft-ISAXuZ1V2PqAuH/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1esrwrxppyHj4od57BENxq4zA543GyvrF/view?usp=sharing"
           >
             VISIT CV
           </a>
