@@ -26,13 +26,11 @@ const Aboutme = () => {
         <div className="w-full mt-12 md:mt-0 md:mx-16 mb-auto">
           <h3 className="mb-3 text-2xl">WEERAPONG NAKLANG</h3>
           <p className="break-words text-gray-600 font-thin">
-            I'm a junior software developer, Diligent and adaptable professional
-            with a background in as a Secretary and Administrator. Graduated
-            with a degree in Public Health, merging a passion for healthcare
-            with a burgeoning interest in technology and software development.
-            Eager to leverage comprehensive administrative experience, coupled
-            with a newfound proficiency in coding and software development, to
-            excel in a Junior Software Developer role.
+            Graduated with a degree in Public Health. Hardworking and flexible
+            professional with experience as a Secretary and Administrative
+            Officer. Keen to use skills from my previous background, along with
+            newfound coding and software development abilities, to succeed in a
+            Software Developer position.
           </p>
           <div className="text-gray-500 pt-3 ">
             <a
